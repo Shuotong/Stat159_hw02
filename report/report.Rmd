@@ -10,7 +10,7 @@ In this report, we reproduce the main results displayed in section 3.1 *Simple L
 
 ## Introduction
 
-The overall goal is to provide advice on how to improve sales of the particular product. More specifically, we are assessing the realationship between advertising and sales. If the analysis shows that there is an association between advertising and sales, we will develop a model to predict sales based on advertising budgets.
+The overall goal is to provide advice on how to improve sales of the particular product. More specifically, we are assessing the relationship between advertising and sales. If the analysis shows that there is an association between advertising and sales, we will develop a model to predict sales based on advertising budgets.
 
 
 ## Data
@@ -51,11 +51,11 @@ table2 <- xtable(sum_table_df, caption = "Table 2: Regression Quality Indicies")
 print(table2, comment=FALSE, type = "html")
 ```
 
-As we can see in Table 2, for our model, residual standard error is 3.26 and R-squared value is 0.61, which is not super high. It indicates that the data is kind of close to the fitted line but our may not be the best model. It  sugests that we should try other linear models in the future work.
+As we can see in Table 2, for our model, residual standard error is 3.26 and R-squared value is 0.61, which is not super high. It indicates that the data is kind of close to the fitted line but our may not be the best model. It suggests that we should try other linear models in the future work.
 
 Below is the scatterplot with fitted regression line. And we can see that as budget for TV advertising increases, the deviation between data and fitted regression line also increases, which also suggests that our model performs worse when TV advertising budget gets large.
 ![Figure 1: Scatterplot with fitted regression line](../images/scatterplot-tv-sales.png)
 
 
 ## Conclusions
-Our simple linear regression model with least square criterion perform OK with our current dataset. However, it may not be reliable when the budget is really high. We should gather more data to train our model. Also we should explore other models for comparision and maybe introduce ensemble method for better quailty.
+Our simple linear regression model with least square criterion perform OK with our current dataset. However, it may not be reliable when the budget is really high. We should gather more data to train our model. Also we should explore other models for comparison and maybe introduce ensemble method for better quality.
