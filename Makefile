@@ -3,7 +3,6 @@
 all: clean data eda-output.txt regression.RData report.pdf
 
 report.pdf: report/report.Rmd regression.RData images/scatterplot-tv-sales.png
-	cd report ; Rscript -e "library(rmarkdown); render('report.Rmd','pdf_document')"
 	cd report ; Rscript -e "library(rmarkdown); render('report.Rmd','html_document')"
 
 regression.RData: code/regression-script.R data/Advertising.csv
@@ -16,4 +15,4 @@ data:
 	cd data ; curl -O http://www-bcf.usc.edu/~gareth/ISL/Advertising.csv
 
 clean:
-	cd report ; rm -f report.pdf report.html
+	cd report ; rm -f report.html
