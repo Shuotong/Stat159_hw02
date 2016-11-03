@@ -1,8 +1,13 @@
-# UC Berkeley Statistics 159 Fall 2016 Homework 2
+# Stat159 Lab9 - Reproduce Simple Regression Analysis report using Latex
 
 ## Introduction
 
-In this homework, our objective is to reproduce the simple regression analysis introduced in Chapter 3, Linear Regression, from the book "An Introduction to Statistical Learning" by Gareth James, Deniela Witten, Trevor Hastie and Robert Tibshirani.
+In this lab we rereproduce the report of HW2 using Rnw.
+
+# Reproduce
+1. `git clone` this repository
+2. `cd lab09`
+3. compile `Report.Rnw`
 
 ## Contributor
 
