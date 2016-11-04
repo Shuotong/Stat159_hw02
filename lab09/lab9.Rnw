@@ -45,13 +45,15 @@ The overall goal is to provide advice on how to improve sales of the particular 
 The \href{http://www-bcf.usc.edu/\%7Egareth/ISL/Advertising.csv}{advertising dataset} consists of Sales(in thousands of units) of a particular product in 200 different markets, along with advertising budgets (in thousands of dollars) for the product in each of those markets for three different media (TV, Newspaper and Radio). We will focus on TV budget in this report.
 
 
-
 \section{Methodology}
-Since we are studying the relationship between _Sales_ and a single media _TV_, we will try to use a simple linear model:
+Since we are studying the relationship between Sales and a single media TV, we will try to use a simple linear model:
 
-$Sales = \beta_0 + \beta_1TV$
+\begin{center} 
+$Sales = \beta_0 + \beta_1TV$ 
+\end{center} 
 
-To estimate two coefficients $\beta_0$ and $\beta_1$, we fit the linear regression model via the least square criterion.
+\noindent
+We consider Sales and TV advertising budgets in our dataset and try to fit them in a simple linear regression model:
 
 \section{Exploration}
 
